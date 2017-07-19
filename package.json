@@ -1,0 +1,31 @@
+{
+  "name": "@nox/storybook-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate example of how to use React's Storybook UI development kit",
+  "main": "index.js",
+  "scripts": {
+    "build-storybook": "build-storybook",
+    "getstorybook": "getstorybook",
+    "storybook": "start-storybook -p 8090",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the0neWhoKnocks/boilerplate.storybook.git"
+  },
+  "author": "Trevor Lemon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the0neWhoKnocks/boilerplate.storybook/issues"
+  },
+  "homepage": "https://github.com/the0neWhoKnocks/boilerplate.storybook#readme",
+  "devDependencies": {
+    "@storybook/addon-info": "^3.1.9",
+    "@storybook/addon-knobs": "^3.1.9",
+    "@storybook/cli": "^3.1.9",
+    "@storybook/react": "^3.1.9",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
