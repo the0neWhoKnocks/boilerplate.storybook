@@ -4,6 +4,22 @@ A boilerplate example of how to use React's Storybook UI development kit
 
 ---
 
+## Install
+
+```sh
+npm i
+```
+
+---
+
+## Starting the Storybook server
+
+```sh
+npm start
+```
+
+---
+
 ## Notes
 
 - I didn't want to use `create-react-app`, so in order to get `storybook` 

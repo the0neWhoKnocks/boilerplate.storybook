@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { array } from 'prop-types'
 
 class WoF extends Component {

@@ -6,7 +6,8 @@
   "scripts": {
     "build-storybook": "build-storybook",
     "getstorybook": "getstorybook",
-    "storybook": "start-storybook -p 8090",
+    "postinstall": "bash ./.bin/npm-postinstall.sh",
+    "start": "start-storybook -p 8090 -s ./.storybook/public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "@storybook/addon-knobs": "^3.1.9",
     "@storybook/cli": "^3.1.9",
     "@storybook/react": "^3.1.9",
+    "glamor": "^2.20.30",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
